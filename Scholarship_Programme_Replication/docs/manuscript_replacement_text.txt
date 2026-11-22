@@ -1,0 +1,21 @@
+SECTION 6. A STYLIZED SCHOLARSHIP PROGRAMME
+
+TWO WAYS THE SAMPLE CAN GROW
+One programme awards scholarships to the top 100 of 1,000 applicants. In the second setting, each independent programme awards one scholarship to the highest-scoring of ten applicants. The award share is 10 percent in both cases. As the number of students in a single programme grows at this fixed share, the score gap between the last recipient and the first nonrecipient shrinks. Adding more ten-applicant programmes leaves the distribution of the gap between the top two students in each programme unchanged.
+
+MODEL SETUP EXAMPLE
+For example, with scores uniform between zero and one and a selection fraction of one tenth, the population reference cutoff is 0.9. On a zero-to-one-hundred score scale, this is 90. An individual cluster need not have its realized cutoff at 90, and its number of scores above 90 need not equal the quota.
+
+ILLUSTRATION SETUP
+Each programme awards scholarships to the highest-scoring ten percent of its student applicants. The running variable is the student's pre-award academic score. The normalized score is uniform between zero and one, so the population reference cutoff is 0.9, or 90 points on the displayed scale. The outcome is a subsequent academic performance index measured for every applicant. Without an award, the index equals 40 plus 30 times the normalized score plus independent Gaussian noise with standard deviation 3. In the main design, receiving the scholarship raises the same student's index by exactly five points.
+
+FIGURE 1 RESULTS
+For ten applicants, the simulated cutoff RMSE is about 9.802 score points and the exact expected adjacent gap is 9.0909 points. With 1,000 applicants, the corresponding quantities are about 0.942 and 0.0999 points.
+
+FIGURE 2 RESULTS
+The local linear experiment uses cluster sizes from 100 to 10,000, with deterministic bandwidth h = 0.5 m^(-1/4) on the normalized score scale. At 1,000 applicants, the mean estimate is 4.9908 and its Monte Carlo standard deviation is 0.9740. At 10,000, the standard deviation is 0.4102. Coverage is 84.250% at 100 applicants and 95.300% at 10,000. These are simulated finite-sample results, not exact coverage guarantees.
+
+FIGURE 3 RESULTS
+The second experiment holds each programme at ten applicants and awards one scholarship. It increases the number of independent programmes from 20 to 2,000 and averages the observed difference in subsequent academic performance between the first- and second-ranked students. The population outcome difference is 5 + 30/11, approximately 7.7273. The scholarship contributes five points. The remaining 2.7273 points are the expected difference in the students' indices if neither received the award. The exact distribution of the normalized pre-award score gap is Beta(1,10).
+The Monte Carlo standard deviation falls from 1.1117 with 20 programmes to 0.1112 with 2,000. At 2,000 programmes, 94.375% of intervals cover the population outcome difference. None of the 4,000 intervals cover the five-point scholarship effect.
+

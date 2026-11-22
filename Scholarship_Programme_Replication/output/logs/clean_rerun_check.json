@@ -1,0 +1,158 @@
+{
+  "check": "Full workflow in a clean source copy, from an external working directory",
+  "environment": "Same installed environment; see environment/versions.json",
+  "passed": true,
+  "files_checked": 30,
+  "results": [
+    {
+      "file": "README.md",
+      "match": true,
+      "sha256": "5db760256ed0300b0448890362a02ee51d791cde3c10f27901ecfd6aa6b3b313"
+    },
+    {
+      "file": "data/raw/cluster_mc.csv.gz",
+      "match": true,
+      "sha256": "888596d6ecbd28940abda0f1bee1c14fa4d2163d5ed4ff90b81ffba5c95ffbfb"
+    },
+    {
+      "file": "data/raw/illustrative_applicants.csv",
+      "match": true,
+      "sha256": "ace065db7d1643db31aa73d993ad7417b198ec9454d3ba5bd4b9652be4e6fb1d"
+    },
+    {
+      "file": "data/raw/small_cluster_mc.csv.gz",
+      "match": true,
+      "sha256": "20d58eba03a9139cacda6db4258859bf06c76b1694745de6e24a386e71941426"
+    },
+    {
+      "file": "docs/data-source-ledger.md",
+      "match": true,
+      "sha256": "e378f03fbe7dea22c72ca4ff70fb032493f0742f70732f013be5d03001b3bf23"
+    },
+    {
+      "file": "docs/deviations.md",
+      "match": true,
+      "sha256": "3c14921c1bab261357916d23d96ed55fe2b09bfaed46ba0f746b57949c4e94d9"
+    },
+    {
+      "file": "docs/figure_blocks.tex",
+      "match": true,
+      "sha256": "e1c89c9136745ebc8a37a0aee38cf26107a69b29ac6887fbf826f06ba751d5be"
+    },
+    {
+      "file": "docs/figure_captions.txt",
+      "match": true,
+      "sha256": "1a9cb55977715d4ce094dbe686cd31f5f42b16c1eb793225c93f231c8172499b"
+    },
+    {
+      "file": "docs/identification-audit.md",
+      "match": true,
+      "sha256": "bc16d4970db5f5384247b037f2780a333dc6cab38df59ab17a77e676a237a73a"
+    },
+    {
+      "file": "docs/manuscript_replacement_text.txt",
+      "match": true,
+      "sha256": "dd4063e423a18bc57b03288e353e882466ddd4039bcebcd834c481f73b5b9ca1"
+    },
+    {
+      "file": "docs/simulation_design.md",
+      "match": true,
+      "sha256": "ea3e965ccec41811571bbc069d755fd1834159cfcd4c933a88307d7d184e18e1"
+    },
+    {
+      "file": "docs/variable-dictionary.md",
+      "match": true,
+      "sha256": "57a8d279c2e5252730ebcf2f820b8954cfd6e4d2f9f9adf5687ea0790694e8f1"
+    },
+    {
+      "file": "environment/versions.json",
+      "match": true,
+      "sha256": "445a382d517e603645233c74ce442b2d683274b343de61f67a9efec81e55a12d"
+    },
+    {
+      "file": "output/Scholarship_Programme_Figure_Guide.pdf",
+      "match": true,
+      "sha256": "4471687fc09662ff2922b2d37b4e06f5ce32fa898859747e1043e67f1de5c28e"
+    },
+    {
+      "file": "output/figures/fig01_cutoff_and_spacing.pdf",
+      "match": true,
+      "sha256": "b74f70d07173fece033ac550758cf7f6ce37ba090a35d9496e232327114f2dbd"
+    },
+    {
+      "file": "output/figures/fig01_cutoff_and_spacing.png",
+      "match": true,
+      "sha256": "74c640c6f67d4d731e2324eefa5363f00610d3e53d9d1a3737863233d6a82f44"
+    },
+    {
+      "file": "output/figures/fig01_cutoff_and_spacing.svg",
+      "match": true,
+      "sha256": "d7479a24c1427d9b02cf004e738a466b395dd357062a26b38e975c80d25c9db2"
+    },
+    {
+      "file": "output/figures/fig02_large_programme_rd.pdf",
+      "match": true,
+      "sha256": "813f87cc28cb88ed28fe4f575290c36a433b37efefec114ea57f23cac1dcb92a"
+    },
+    {
+      "file": "output/figures/fig02_large_programme_rd.png",
+      "match": true,
+      "sha256": "fa1b9dac70d961c640e2fdae827d3bd0e013845b6b79149e750c363fb802a730"
+    },
+    {
+      "file": "output/figures/fig02_large_programme_rd.svg",
+      "match": true,
+      "sha256": "33d319c94d824e1cf8a7badfedfc1a589091a6cedadb38816733a06eb61e53b0"
+    },
+    {
+      "file": "output/figures/fig03_small_programmes.pdf",
+      "match": true,
+      "sha256": "8a547298cd8a2a2ca11296b2ee0bd2440b0039942dd86376e21d5e41f391ea36"
+    },
+    {
+      "file": "output/figures/fig03_small_programmes.png",
+      "match": true,
+      "sha256": "5f98b4774434a2f290b32066d56206b4df304ea24ea469dbe3953b3284ceb050"
+    },
+    {
+      "file": "output/figures/fig03_small_programmes.svg",
+      "match": true,
+      "sha256": "f0f74a0f25306702055b3ca07574be0257dcfc94a160d0b265488e54b95865f5"
+    },
+    {
+      "file": "output/logs/validation.json",
+      "match": true,
+      "sha256": "c279e5708dc57405a6a2db4e827db9a8de40b6d9966855ef4974318a7f94f071"
+    },
+    {
+      "file": "output/tables/analytic_sensitivity.csv",
+      "match": true,
+      "sha256": "bc9c70f45658a6e93c4ec20d73533ed72ee04cd11d12431fe7146937328dbaf4"
+    },
+    {
+      "file": "output/tables/cutoff_and_spacing.csv",
+      "match": true,
+      "sha256": "eac108f10eda91a7391e505599fe14ec3a8cd9a0ce773602d15349c78a44b152"
+    },
+    {
+      "file": "output/tables/large_cluster_rd.csv",
+      "match": true,
+      "sha256": "00482a20c1ba06ce9f7ff5a672abcab8070e01f9a545b22275240b48da3def40"
+    },
+    {
+      "file": "output/tables/large_cluster_rd.tex",
+      "match": true,
+      "sha256": "80dfa8947d4364173af2e50f23eaf31268798478edf807c302f514f69d4b20c9"
+    },
+    {
+      "file": "output/tables/small_cluster_contrast.csv",
+      "match": true,
+      "sha256": "9df1a9e45fdcdeb1d91d01b10b9f29ebf288d85a075988b2f1a4f178795c952d"
+    },
+    {
+      "file": "output/tables/small_cluster_contrast.tex",
+      "match": true,
+      "sha256": "5d460695013a6cb7a86b0654f1dba420ba7684dc31707619deb49c94ecec7a44"
+    }
+  ]
+}

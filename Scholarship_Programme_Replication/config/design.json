@@ -1,0 +1,60 @@
+{
+  "title": "A Stylized Scholarship Programme",
+  "version": "2.0.0",
+  "design_date": "2026-11-11",
+  "seed": 20261111,
+  "quota_numerator": 1,
+  "quota_denominator": 10,
+  "score_scale": 100.0,
+  "baseline_intercept": 40.0,
+  "baseline_slope_normalized_score": 30.0,
+  "treatment_effect": 5.0,
+  "outcome_noise_sd": 3.0,
+  "replications": 4000,
+  "batch_size": 64,
+  "bandwidth_constant": 0.5,
+  "bandwidth_exponent": -0.25,
+  "nonlinear_baseline_curvature": 15.0,
+  "nonlinear_effect_slope": 4.0,
+  "nonlinear_effect_curvature": 10.0,
+  "cluster_sizes": [
+    10,
+    20,
+    50,
+    100,
+    200,
+    500,
+    1000,
+    2000,
+    5000,
+    10000
+  ],
+  "rd_minimum_cluster_size": 100,
+  "small_cluster_size": 10,
+  "small_cluster_counts": [
+    20,
+    50,
+    100,
+    200,
+    500,
+    1000,
+    2000
+  ],
+  "illustrative_cluster_sizes": [
+    10,
+    1000
+  ],
+  "analytic_sensitivity_sizes": [
+    10,
+    20,
+    50,
+    100,
+    1000
+  ],
+  "analytic_sensitivity_slopes": [
+    0,
+    15,
+    30,
+    60
+  ]
+}

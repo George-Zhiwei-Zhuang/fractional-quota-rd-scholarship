@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this simulation package, cite the accompanying manuscript."
+title: "A Stylized Scholarship Programme"
+authors:
+  - family-names: Zhuang
+    given-names: Zhiwei
+version: 2.0.0
+date-released: 2026-11-11
+type: software
+abstract: "Section 6 simulation of regression discontinuity under a top-10-percent scholarship rule, comparing larger applicant pools with repeated small programmes."

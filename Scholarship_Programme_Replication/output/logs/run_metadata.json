@@ -1,0 +1,14 @@
+{
+  "design_version": "2.0.0",
+  "seed": 20261111,
+  "rng": "numpy PCG64 / SeedSequence",
+  "config_sha256": "46445b61e74c87b8ff92768b2cd418c6c3fcb8352a5b00d838f530d198ddbf35",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "simulation_seconds": 8.321,
+  "data_origin": "Entirely synthetic; no downloads or private inputs",
+  "selection": "All prespecified sizes and repetitions retained; no seed selection"
+}

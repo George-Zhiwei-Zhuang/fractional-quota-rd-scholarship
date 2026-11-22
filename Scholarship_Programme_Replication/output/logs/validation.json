@@ -1,0 +1,37 @@
+[
+  {
+    "check": "quota proportions",
+    "passed": true,
+    "detail": "Every simulated cluster selects exactly the configured fraction."
+  },
+  {
+    "check": "uniform spacing mean",
+    "passed": true,
+    "detail": "Maximum absolute Monte Carlo z-score: 2.079"
+  },
+  {
+    "check": "midpoint mean",
+    "passed": true,
+    "detail": "Maximum absolute Monte Carlo z-score: 2.497"
+  },
+  {
+    "check": "all RD fits usable",
+    "passed": true,
+    "detail": "Failed fits: 0; none silently dropped."
+  },
+  {
+    "check": "small contrast expectation",
+    "passed": true,
+    "detail": "Maximum absolute Monte Carlo z-score: 1.538"
+  },
+  {
+    "check": "small contrast variance",
+    "passed": true,
+    "detail": "MC/exact SD range: 0.9995 to 1.0110"
+  },
+  {
+    "check": "independent WLS check",
+    "passed": true,
+    "detail": "Direct matrix solution and HC0 sandwich agree with the batched calculation."
+  }
+]
